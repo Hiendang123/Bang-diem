@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kiểm tra điểm học kì</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BANG DIEM CUA EM</h1>
+      <label>Semester 1:</label>
+      <input type="text" class="point-1" /><br />
+      <label>Semester 2:</label>
+      <input type="text" class="point-2" /><br />
+      <label>Year:</label>
+      <select class="year">
+        <option value="0"></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option></select
+      ><br />
+      <label>Summarise:</label>
+      <input type="text" class="summarise" readonly /><br />
+      <p id="hoc-luc"></p>
+      <button onclick="myFunction()" class="btn">OK</button>
+      <button onclick="xoa()" class="btn1">Cancel</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
